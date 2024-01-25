@@ -1,0 +1,181 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    background-image: linear-gradient(to right, #2aa0e5b5 50%, #71bae574 50%);
+    background-size: 200% 100%;
+    animation: gradientAnimation 4s linear infinite;
+}
+
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 200% 0;
+        
+    }
+    100% {
+        background-position: -200% 0;
+        
+    }
+}
+
+header {
+    background-color: #005a8d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: fadeInUp 1s ease;
+    background-image: url(Frontend-Development.jpg);
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: 80%;
+    background-clip: content-box;
+    background-blend-mode:lighten;
+    
+    
+
+    
+    
+}
+
+img {
+    width: 65%;
+    border-radius: 8px;
+   
+}
+
+.x {
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 70%;
+    margin-top: 10%;
+    
+
+
+}
+
+nav {
+    width: 100%;
+    background-color: #005a8d;
+    padding: 10px;
+    text-align: center;
+    
+    
+    
+
+    
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff ;
+    transform: scale(1.1);
+    font-size: 17px;
+    background-color: #1053c876;
+    
+    
+    
+    
+}
+
+
+
+/* ... existing styles ... */
+
+section {
+    padding: 40px;
+    background-color: #f4f4f4;
+    margin: 20px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    background-size: 20px 20px;
+    animation: fadeInUp 1s ease, backgroundFade 1s ease;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+section:hover {
+    animation: hoverAnimation 0.5s ease;
+    cursor: pointer;
+}
+
+@keyframes hoverAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* ... existing styles ... */
+
+
+@keyframes backgroundFade {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+h2 {
+    color: #005a8d;
+    border-bottom: 2px solid #00598ded;
+    padding-bottom: 10px;
+    
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    
+}
+
+footer {
+    background-color: #005a8d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
