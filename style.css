@@ -6,7 +6,7 @@ body {
     color: #333;
     background-image: linear-gradient(to right, #2aa0e5b5 50%, #71bae574 50%);
     background-size: 200% 100%;
-    animation: gradientAnimation 4s linear infinite;
+    animation: gradientAnimation 2s linear infinite;
 }
 
 
