@@ -3,23 +3,9 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color: #71bae574;
     color: #333;
-    background-image: linear-gradient(to right, #2aa0e5b5 50%, #71bae574 50%);
-    background-size: 200% 100%;
-    animation: gradientAnimation 1s linear infinite;
-}
-
-
-@keyframes gradientAnimation {
-    0% {
-        background-position: 100% 0;
-        
-    }
-    100% {
-        background-position: -100% 0;
-        
-    }
+    
 }
 
 
