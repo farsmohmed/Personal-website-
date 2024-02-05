@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     font-family: 'Bebas Neue', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #71bae574;
+    background-color: #f8f8f8;
     color: #333;
+    background-image: linear-gradient(to right, #2aa0e5b5 50%, #2aa0e2 50%);
+    background-size: 200% 100%;
+    animation: gradientAnimation 5s linear infinite;
     
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 100% 0;
+        
+    }
+    100% {
+        background-position: -100% 0;
+        
+    }
 }
 
 
@@ -16,12 +31,14 @@ header {
     padding: 20px;
     animation: fadeInUp 1s ease;
     background-image: url(Frontend-Development.jpg);
+    background-size: cover;
     background-size: 60% 100%;
     background-repeat: no-repeat;
     background-position: 80%;
     background-clip: content-box;
     background-blend-mode:lighten;
     box-shadow: 0px 10px 10px rgba(2, 38, 88, 0.5);
+
     
     
 
@@ -29,10 +46,21 @@ header {
     
 }
 
+header h1{
+    font-size: 500px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: initial;
+    
+}
+
 img {
     width: 65%;
     border-radius: 8px;
     box-shadow: 0px 10px 10px rgba(2, 38, 88, 0.5);
+    background-size: cover;
+    border: 3px solid white;
    
 }
 
@@ -42,6 +70,9 @@ img {
     margin-right: 70%;
     margin-top: 10%;
     box-shadow: 0px 10px 10px rgba(2, 38, 88, 0.5);
+    background-size: cover;
+    
+    
     
 
 
@@ -161,7 +192,6 @@ footer {
     width: 100%;
     animation: fadeInUp 1s ease;
 }
-
 
 
 
